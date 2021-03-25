@@ -3,7 +3,7 @@
   "version": "2.0.3",
   "description": "Build CSV files on the fly basing on Array/literal object of data ",
   "main": "index.js",
-  "jsnext:main": "src/index.js",
+  "jsnext:main": "src/index.jsx",
   "scripts": {
     "cdn": "node cdn/generator.js",
     "compile": "babel -d lib/ src/ --no-comments",
